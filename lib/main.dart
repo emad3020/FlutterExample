@@ -1,3 +1,4 @@
+import 'package:firstapp/StackScreen.dart';
 import 'package:firstapp/homeScreen.dart';
 import 'package:firstapp/loginScreen.dart';
 import 'package:firstapp/rowScreen.dart';
@@ -33,6 +34,10 @@ class NavigationScreen extends StatelessWidget {
           OutlinedButton(
               onPressed: () => _navigateTo(context, LoginScreen()),
               child: Text('Login page')),
+          OutlinedButton(
+            onPressed: () => _navigateTo(context, StackScreen()),
+            child: Text("Stack Page"),
+          )
         ],
       ),
     ));

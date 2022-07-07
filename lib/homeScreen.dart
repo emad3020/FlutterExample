@@ -5,7 +5,6 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          leading: Icon(Icons.menu),
           backgroundColor: Colors.teal,
           title: Text('First App'),
           actions: [
@@ -44,7 +43,6 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 30.0),
                 ),
               ),
-
               Container(
                 color: Colors.amber,
                 child: Text(
