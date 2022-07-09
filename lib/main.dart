@@ -1,6 +1,7 @@
 import 'package:firstapp/StackScreen.dart';
 import 'package:firstapp/homeScreen.dart';
 import 'package:firstapp/loginScreen.dart';
+import 'package:firstapp/messenger_screen.dart';
 import 'package:firstapp/rowScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +38,13 @@ class NavigationScreen extends StatelessWidget {
           OutlinedButton(
             onPressed: () => _navigateTo(context, StackScreen()),
             child: Text("Stack Page"),
-          )
+          ),
+          OutlinedButton(
+              onPressed: () {
+                Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(builder: (context) => MessengerScreen()));
+              },
+              child: Text('Messenger Page'))
         ],
       ),
     ));
