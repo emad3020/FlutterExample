@@ -54,882 +54,157 @@ class MessengerScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              padding: EdgeInsets.all(5.0),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10.0),
-                color: Colors.grey[300],
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.search),
-                  SizedBox(
-                    width: 15.0,
-                  ),
-                  Text('Search'),
-                ],
-              ),
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: [
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                  Container(
-                    width: 60.0,
-                    child: Column(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: 5.0),
-                        Text(
-                          'Emad Ahmed',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(
-                    width: 20.0,
-                  ),
-                ],
-              ),
-            ),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                padding: EdgeInsets.all(5.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10.0),
+                  color: Colors.grey[300],
+                ),
+                child: Row(
                   children: [
+                    Icon(Icons.search),
                     SizedBox(
-                      height: 30.0,
+                      width: 15.0,
                     ),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              )
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    SizedBox(height: 20.0),
-                    Row(
-                      children: [
-                        Stack(
-                          alignment: AlignmentDirectional.bottomEnd,
-                          children: [
-                            CircleAvatar(
-                              radius: 30.0,
-                              backgroundImage: NetworkImage(
-                                  'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                bottom: 3.0,
-                                end: 3.0,
-                              ),
-                              child: CircleAvatar(
-                                radius: 7.0,
-                                backgroundColor: Colors.green,
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 20.0,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Emad Ahmed',
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                  )),
-                              SizedBox(
-                                height: 5.0,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'Hello, what\'s up with you today?',
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10.0),
-                                    child: Container(
-                                      width: 7.0,
-                                      height: 7.0,
-                                      decoration: BoxDecoration(
-                                          color: Colors.blue,
-                                          shape: BoxShape.circle),
-                                    ),
-                                  ),
-                                  Text('02:00 pm')
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
+                    Text('Search'),
                   ],
                 ),
               ),
-            )
-          ],
+              SizedBox(
+                height: 20.0,
+              ),
+              Container(
+                height: 100.0,
+                child: ListView.separated(
+                  separatorBuilder: (context, index) => SizedBox(width: 20.0),
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) => buildStoryItem(),
+                  itemCount: 20,
+                ),
+              ),
+              SizedBox(height: 20.0),
+              ListView.separated(
+                physics: NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
+                itemBuilder: (context, index) => buildChatItem(),
+                scrollDirection: Axis.vertical,
+                itemCount: 100,
+                separatorBuilder: (context, index) => SizedBox(height: 20.0),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
+
+  // steps to create list
+  // 1- build or design item
+  // 2- build list
+  // 3- add item to list
+
+  Widget buildChatItem() => Row(
+        children: [
+          Stack(
+            alignment: AlignmentDirectional.bottomEnd,
+            children: [
+              CircleAvatar(
+                radius: 30.0,
+                backgroundImage: NetworkImage(
+                    'https://live.staticflickr.com/3390/4560733642_5e85bc1fea_c.jpg'),
+              ),
+              Padding(
+                padding: const EdgeInsetsDirectional.only(
+                  bottom: 3.0,
+                  end: 3.0,
+                ),
+                child: CircleAvatar(
+                  radius: 7.0,
+                  backgroundColor: Colors.green,
+                ),
+              )
+            ],
+          ),
+          SizedBox(
+            width: 20.0,
+          ),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Emad Ahmed',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.bold,
+                    )),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        'Hello, what\'s up with you today?',
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      child: Container(
+                        width: 7.0,
+                        height: 7.0,
+                        decoration: BoxDecoration(
+                            color: Colors.blue, shape: BoxShape.circle),
+                      ),
+                    ),
+                    Text('02:00 pm')
+                  ],
+                )
+              ],
+            ),
+          )
+        ],
+      );
+
+  Widget buildStoryItem() => Container(
+        width: 60.0,
+        child: Column(
+          children: [
+            Stack(
+              alignment: AlignmentDirectional.bottomEnd,
+              children: [
+                CircleAvatar(
+                  radius: 30.0,
+                  backgroundImage: NetworkImage(
+                      'https://m.media-amazon.com/images/I/513eikvstWL.jpg'),
+                ),
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(
+                    bottom: 3.0,
+                    end: 3.0,
+                  ),
+                  child: CircleAvatar(
+                    radius: 7.0,
+                    backgroundColor: Colors.green,
+                  ),
+                )
+              ],
+            ),
+            SizedBox(height: 5.0),
+            Text(
+              'Emad Ahmed',
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+            ),
+          ],
+        ),
+      );
 }
