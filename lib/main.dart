@@ -3,6 +3,7 @@ import 'package:firstapp/homeScreen.dart';
 import 'package:firstapp/loginScreen.dart';
 import 'package:firstapp/messenger_screen.dart';
 import 'package:firstapp/rowScreen.dart';
+import 'package:firstapp/user_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.black),
-      home: NavigationScreen(),
+      home: UserScreen(),
     );
   }
 }
